@@ -4,7 +4,7 @@
 
 layout(location = 0) rayPayloadInEXT vec3 hitValue;
 layout(location = 0) callableDataEXT vec3 outColor;
-hitAttributeEXT vec3 attribs;
+hitAttributeEXT vec2 attribs;
 
 layout(binding = 0, set = 0) uniform accelerationStructureEXT topLevelAS;
 
